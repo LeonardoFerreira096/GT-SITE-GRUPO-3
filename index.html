@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,62 +13,32 @@
 <body>
     <main>
 
-    </main>
-</body>
-<footer>
-    <h1 class="titulo-img flex justify-center font-bold text-2xl">Upcoming Plants</h1>
-    <div class="img-plantas flex justify-center items-center h-full p-[3%] gap-[30px] font-bold">
-        <div>
-            <img src="./imgs/img1.svg" alt="">
-            <h2 class="flex justify-center ">Ivy</h2>
-        </div>
-        <div>
-            <img src="./imgs/img2.svg" alt="">
-            <h2 class="flex justify-center ">Jasmine</h2>
-        </div>
-        <div>
-            <img src="imgs/img3.svg" alt="">
-            <h2 class="flex justify-center ">Rosemary</h2>
-        </div>
-        <div>
-            <img src="./imgs/img4.svg" alt="">
-            <h2 class="flex justify-center ">Gingko</h2>
-        </div>
-    </div>
-    <div>
-        <nav class="footer-nav flex align-content gap-[100px] p-[10px] m-[150px]">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
-            <ul>
-                <h1 class="font-bold ">Contact</h1>
-                <li><a href="">Pokhara, Nepal</a></li>
-                <li><a href="">mail@gardenpokhara.club</a></li>
-                <li><a href="">+977-9801048130</a></li>
-            </ul>
-            <img src="./imgs/mapa.svg " alt="">
-        </nav>
-    </div>
-    <div class="div-footer-textfinal">
-        <div class="flex justify-center-safe gap-[350px] p-[50px]">
-            <p>&copy; Copyright @ 2025 GardenPokhara.</p>
-            <h1>
-                <div class="items-center ">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                </div>
-            </h1>
-            <p>Created by Brandbuilder</p>
-           
-        </div>
-    </div>
-    <div class="mapa ml-[10px]">
-        <img src="./imgs/2c26d93f436129b32854006a9e0511c7.jpg" alt="">
-    </div>
-</footer>
 
-</html>
+ 
+        <!-- discount section -->
+        <section>
+            <div class="flex h-[400px] w-full relative">
+                <!-- Imagem de fundo cobrindo tudo -->
+                <img src="floresta.jpg" alt="planta" class="absolute inset-0 w-full h-full object-cover z-0" />
+
+                <!-- Camada escura para contraste -->
+                <div class="absolute inset-0 bg-black/40 z-10"></div>
+
+                <!-- Coluna da esquerda (texto) -->
+                <div class="w-1/2 relative z-20 flex flex-col justify-center items-start px-10 text-white m-50 gap-4">
+                    <h1 class="text-2xl md:text-4xl font-bold mb-4">Garden Pokhara<br />welcomes you!!</h1>
+                    <p class="text-sm md:text-base">Receive 10% off on your purchase.<br />Redeem now!</p>
+                </div>
+
+                <!-- Coluna da direita (formulário) -->
+                <div class="w-1/2 relative z-20 flex flex-col justify-center items-start px-10 space-y-4">
+                    <input type="email" placeholder="Enter email..."
+                        class="px-4 py-2 w-[350px]  focus:outline-none text-sm bg-white text-gray-700 placeholder-gray-500" />
+                    <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 transition-all">
+                        Claim now
+                    </button>
+                </div>
+            </div>
+        </section>
+  </main>
+  </body>
